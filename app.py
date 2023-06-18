@@ -38,8 +38,8 @@ def services():
     return "We offer the following services: web development, data analysis, SEO."
 
 
-@app.route("/internals")
-def internals():
+@app.route("/internal")
+def internal():
     return "We offer the following services: web development, data analysis"
 
 if __name__ == "__main__":
